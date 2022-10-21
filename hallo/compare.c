@@ -18,7 +18,6 @@ int main(void)
 
     else
     {
-        printf("x is equal to y"as )
+        printf("x is equal to y\n");
     }
-
 }
