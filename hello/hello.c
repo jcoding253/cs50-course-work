@@ -2,5 +2,5 @@
 
 int main(void)
 {
-    printf("hello, world\n");
+    string answer= printf("hello, world\n");
 }
