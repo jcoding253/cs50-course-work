@@ -10,7 +10,17 @@ int main(void)
         printf("Agreed.\n");
     }
 
-    if (c == 'n')
+    else if (c == 'Y')
+    {
+        printf("Agreed.\n");
+    }
+
+    else if (c == 'n')
+    {
+        printf("Disagreed.\n");
+    }
+
+    else if (c == 'N')
     {
         printf("Disagreed.\n");
     }
