@@ -5,24 +5,15 @@ int main(void)
 {
     char c = get_char("Do you agree my butt smells? ");
 
-    if (c == 'y')
+    if (c == 'y' || c == 'Y')
     {
         printf("Agreed.\n");
     }
 
-    else if (c == 'Y')
-    {
-        printf("Agreed.\n");
-    }
-
-    else if (c == 'n')
+    else if (c == 'n' || c == 'N')
     {
         printf("Disagreed.\n");
     }
 
-    else if (c == 'N')
-    {
-        printf("Disagreed.\n");
-    }
 }
 
