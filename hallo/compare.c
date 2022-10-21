@@ -8,6 +8,6 @@ int main(void)
 
     if (x < y)
     {
-        printf("x is less than x\y)
+        printf("x is less than x\y")
     }
 }
