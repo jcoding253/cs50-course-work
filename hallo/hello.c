@@ -2,6 +2,9 @@
 
 int main(void)
 {
-    printf("meow\n");
-    printf("hello, %s poopy butt \n" , answer);
-}
+    int i = 0:
+    while (i <3)
+    {
+        printf("meow\n");
+        i++
+    }
