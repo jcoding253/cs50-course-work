@@ -10,9 +10,9 @@ int main(void)
     }
 
     printf("\n\n");
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 2; i++)
     {
-        printf("#\n");
+        printf("O\n");
     }
 
     printf("\n");
@@ -39,7 +39,7 @@ int main(void)
     {
         for (int r = 0; r < s; r++)
         {
-            printf("#");
+            printf("A");
         }
         printf("\n");
     }
