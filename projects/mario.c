@@ -32,7 +32,7 @@ int main(void)
     {
         s = get_int("Size: ");
     }
-    while (s < 1)
+    while (s < 1);
 
 
     for (int c = 0; c < s; c++)
