@@ -17,6 +17,8 @@ int main(void)
         printf("#\n");
     }
 
+    printf("\n");
+
     for (int r = 0; r < 3; r++)
     {
 
