@@ -3,18 +3,21 @@
 
 int main(void)
 {
+    // row of question marks
     printf("\n");
     for (int i = 0; i < 4; i++)
     {
         printf("?");
     }
 
+    // column of $'s
     printf("\n\n");
     for (int i = 0; i < 2; i++)
     {
-        printf("O\n");
+        printf("$\n");
     }
 
+    // constant 3x3 blocks
     printf("\n");
     const int n = 3;
     for (int c = 0; c < n; c++)
@@ -26,6 +29,7 @@ int main(void)
         printf("\n");
     }
 
+    // get size of grid, conditional loop
     printf("\n");
     int s;
     do
@@ -34,7 +38,7 @@ int main(void)
     }
     while (s < 1);
 
-
+    // print previous grid
     for (int c = 0; c < s; c++)
     {
         for (int r = 0; r < s; r++)
