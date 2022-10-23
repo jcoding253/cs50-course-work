@@ -7,10 +7,8 @@ int main(void)
     {
         printf("?");
     }
-    printf("\n");
-}
+    printf("\n\n");
 
-{
     for (int x = 0; x < 3; x++)
     {
         printf("#\n");
