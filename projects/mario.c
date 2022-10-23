@@ -19,7 +19,7 @@ int main(void)
 
     printf("\n");
 
-    const int n = 5;
+    const int n = 3;
     for (int c = 0; c < n; c++)
     {
 
