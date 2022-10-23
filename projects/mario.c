@@ -19,8 +19,14 @@ int main(void)
 
     printf("\n");
 
-    for (int  = 0; x < 3; x++)
+    for (int r = 0; r < 3; r++)
     {
-        printf("#\n");
+        for (int c = 0; c < 3; c++)
+        {
+            printf("#");
+        }
     }
+
+    printf("\n");
+
 }
