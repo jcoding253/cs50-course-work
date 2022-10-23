@@ -27,7 +27,14 @@ int main(void)
     }
 
     printf("\n");
-    int s = get_int("Size: ");
+    int s;
+    do
+    {
+        s = get_int("Size: ");
+    }
+    while (s < 1)
+
+
     for (int c = 0; c < s; c++)
     {
         for (int r = 0; r < s; r++)
