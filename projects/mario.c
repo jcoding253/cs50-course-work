@@ -4,13 +4,22 @@
 int main(void)
 {
     printf("\n");
+
     for (int i = 0; i < 4; i++)
     {
         printf("?");
     }
+
     printf("\n\n");
 
-    for (int x = 0; x < 3; x++)
+    for (int b = 0; b < 3; b++)
+    {
+        printf("#\n");
+    }
+
+    printf("\n");
+
+    for (int  = 0; x < 3; x++)
     {
         printf("#\n");
     }
