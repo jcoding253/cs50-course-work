@@ -38,12 +38,12 @@ int main(void)
     }
     while (s < 1);
 
-    // print previous grid
+    // print previous grid with stars
     for (int c = 0; c < s; c++)
     {
         for (int r = 0; r < s; r++)
         {
-            printf("A");
+            printf("*");
         }
         printf("\n");
     }
