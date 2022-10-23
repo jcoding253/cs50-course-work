@@ -19,10 +19,11 @@ int main(void)
 
     printf("\n");
 
-    for (int c = 0; c < 3; c++)
+    const int n = 5;
+    for (int c = 0; c < n; c++)
     {
 
-        for (int r = 0; r < 3; r++)
+        for (int r = 0; r < n; r++)
         {
             printf("#");
         }
