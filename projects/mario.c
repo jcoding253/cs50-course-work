@@ -10,7 +10,7 @@ int main(void)
     }
 
     printf("\n\n");
-    for (int b = 0; b < 3; b++)
+    for (int i = 0; i < 3; i++)
     {
         printf("#\n");
     }
@@ -20,6 +20,17 @@ int main(void)
     for (int c = 0; c < n; c++)
     {
         for (int r = 0; r < n; r++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+
+    printf("\n");
+    int s = get_int("Size: ");
+    for (int c = 0; c < s; c++)
+    {
+        for (int r = 0; r < s; r++)
         {
             printf("#");
         }
