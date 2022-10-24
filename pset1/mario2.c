@@ -40,6 +40,8 @@ int main(void)
 
 
 
+
+
 //abstraction for get_size
 // get size of grid, conditional loop
 int get_size(void)
