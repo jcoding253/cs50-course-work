@@ -50,3 +50,16 @@ int main(void)
 
     printf("\n");
 }
+
+
+int get_size (void)
+{
+    int s;
+    do
+    {
+        s = get_int("Size: ");
+    }
+    while (s < 1)
+    return s;
+}
+int print_grid
