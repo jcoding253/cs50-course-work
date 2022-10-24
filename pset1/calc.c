@@ -7,4 +7,6 @@ int main(void)
     long y = get_long("What's y? ");
 
     printf("%li\n", x + y);
+
+    
 }
