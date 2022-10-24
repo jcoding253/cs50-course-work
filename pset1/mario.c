@@ -33,26 +33,8 @@ int main(void)
     printf("\n");
     int get_size("Size: ");
 
-
-
-    
-    int s;
-    do
-    {
-        s = get_int("Size: ");
-    }
-    while (s < 1);
-
-    // print previous grid with stars
-    for (int c = 0; c < s; c++)
-    {
-        for (int r = 0; r < s; r++)
-        {
-            printf("*");
-        }
-        printf("\n");
-    }
-
+    printf("\n");
+    print_grid(int s)
     printf("\n");
 }
 
