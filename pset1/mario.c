@@ -42,6 +42,7 @@ int main(void)
 // get size of grid, conditional loop
 int get_size (void)
 {
+    printf("\n");
     int s;
     do
     {
@@ -55,7 +56,7 @@ int get_size (void)
 // print previous grid with stars
 void print_grid(int s)
 {
-
+    printf("\n");
     for (int c = 0; c < s; c++)
     {
         for (int r = 0; r < s; r++)
