@@ -64,7 +64,7 @@ int get_size (void)
 }
 
 //abstraction for printing
-void print_grid()
+void print_grid(int s)
 {
     for (int )
 }
