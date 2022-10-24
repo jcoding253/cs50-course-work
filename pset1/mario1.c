@@ -36,7 +36,7 @@ int main(void)
     {
         s = get_int("Size: ");
     }
-    while (s < 1)
+    while (s < 1);
 
     // print previous grid with stars
     printf("\n");
@@ -48,5 +48,5 @@ int main(void)
         }
         printf("\n");
     }
-    
+
 }
