@@ -32,14 +32,13 @@ int main(void)
         printf("\n");
     }
 
-
-    printf("\n");
+    //see abstractions below for making grids
     int s = get_size();
-
-    printf("\n");
     print_grid(s);
     printf("\n");
 }
+
+
 
 //abstraction for get_size
 // get size of grid, conditional loop
