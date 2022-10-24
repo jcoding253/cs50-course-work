@@ -51,7 +51,7 @@ int main(void)
     printf("\n");
 }
 
-
+//abstraction for get_size
 int get_size (void)
 {
     int s;
@@ -62,4 +62,9 @@ int get_size (void)
     while (s < 1)
     return s;
 }
-int print_grid
+
+//abstraction for printing
+void print_grid()
+{
+    for (int )
+}
