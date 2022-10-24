@@ -1,6 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
+int get_size (void)
+void print_grid(int s)
+
 int main(void)
 {
     // row of question marks
