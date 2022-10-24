@@ -1,6 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
+int get_size(void)
+void print_grid(int s)
+
 int main(void)
 {
     // row of question marks
@@ -31,7 +34,7 @@ int main(void)
 
 
     printf("\n");
-    int get_size("Size: ");
+    int get_size();
 
     printf("\n");
     print_grid(int s)
@@ -40,7 +43,7 @@ int main(void)
 
 //abstraction for get_size
 // get size of grid, conditional loop
-int get_size (void)
+int get_size(void)
 {
     printf("\n");
     int s;
@@ -48,7 +51,7 @@ int get_size (void)
     {
         s = get_int("Size: ");
     }
-    while (s < 1)
+    while (s < 1);
     return s;
 }
 
