@@ -34,7 +34,7 @@ int main(void)
 
 
     printf("\n");
-    int get_size();
+    int s = get_size();
 
     printf("\n");
     print_grid(s);
