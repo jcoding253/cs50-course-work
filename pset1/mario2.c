@@ -1,8 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int get_size(void)
-void print_grid(int s)
+int get_size(void);
+void print_grid(int s);
 
 int main(void)
 {
@@ -37,7 +37,7 @@ int main(void)
     int get_size();
 
     printf("\n");
-    print_grid(int s)
+    print_grid(int s);
     printf("\n");
 }
 
