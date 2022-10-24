@@ -31,11 +31,10 @@ int main(void)
 
 
     printf("\n");
-    int get_size("Size: ");
+    int s = get_size();
 
     printf("\n");
-    print_grid(int s)
-    printf("\n");
+    print_grid(s);
 }
 
 //abstraction for get_size
