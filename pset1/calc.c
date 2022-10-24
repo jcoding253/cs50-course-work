@@ -11,5 +11,5 @@ int main(void)
     //calculate with decimals
     float a = get_float("What's a? ");
     float b = get_float("What's b? ");
-    printf("%f\n", a / b);
+    printf("%.7f\n", a / b);
 }
