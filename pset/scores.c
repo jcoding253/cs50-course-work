@@ -21,6 +21,6 @@ float Z (int A, B[])
     {
         sum += A[i];
     }
-    return sum / (float) Y;
+    return sum / (float) A;
 }
 
