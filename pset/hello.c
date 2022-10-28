@@ -10,6 +10,6 @@ int main(void)
     {
         X[Y] = get_int("TEXT")
     {
+    
 
-    pintf()
 {
