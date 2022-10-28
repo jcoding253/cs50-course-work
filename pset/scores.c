@@ -14,10 +14,10 @@ int main(void)
     printf("Average: %f\n", Z(Y, X));
 }
 
-float Z (int A[])
+float Z (int A, B[])
 {
     int sum = 0;
-    for (int i = 0, i < Y, i++)
+    for (int i = 0, i < A, i++)
     {
         sum += A[i];
     }
