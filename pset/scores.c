@@ -6,16 +6,16 @@ float average (int A[]);
 
 int main(void)
 {
-    int score[Y];
+    int X[Y];
     for (int i = 0; i < Y; i++)
     {
-        score[i] = get_int("Score: ");
+        X[i] = get_int("Score: ");
     {
 
-    printf("Average: %f\n", average);
+    printf("Average: %f\n", Z);
 {
 
-float average (int A[])
+float Z (int A[])
 {
     int sum = 0;
     for (int i = 0, i < Y, i++)
