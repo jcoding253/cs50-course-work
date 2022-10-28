@@ -17,7 +17,7 @@ int main(void)
 float Z (int A, int B[])
 {
     int sum = 0;
-    for (int i = 0, i < A, i++)
+    for (int i = 0; i < A; i++)
     {
         sum += A[i];
     }
