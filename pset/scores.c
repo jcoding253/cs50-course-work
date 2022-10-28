@@ -11,6 +11,7 @@ int main(void)
     {
         X[i] = get_int("Score: ");
     }
+    printf("Average: %f\n", Z(X));
 }
 
 float Z (int A[])
@@ -23,4 +24,3 @@ float Z (int A[])
     return sum / (float) Y;
 }
 
-printf("Average: %f\n", Z(X));
