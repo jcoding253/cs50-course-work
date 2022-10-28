@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <cs50.h>
 
+const int Y = 3
+
 int main(void)
 {
-    string first= get_string ("What's your first name? ");
-    string last = get_string ("What's your last name? ");
-    printf("Hey, %s thanks for messaging us\n", first);
-}
+    int X[Y]
+    for (int i = 0; i < Y; i++)
+    {
+        X[Y] = get_int("TEXT")
+    {
+
+    pintf()
+{
