@@ -11,7 +11,7 @@ int main(void)
         score[Y] = get_int("Score: ");
     {
 
-    printf("Average: %f\n", float average[]);
+    printf("Average: %f\n", average(A[]));
 {
 
 float average (int A[])
