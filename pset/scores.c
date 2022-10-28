@@ -10,12 +10,11 @@ int main(void)
     for (int i = 0; i < Y; i++)
     {
         X[i] = get_int("Score: ");
-    {
-
-    printf("Average: %f\n", Z);
-{
+    }
+}
 
 float Z (int A[])
+
 {
     int sum = 0;
     for (int i = 0, i < Y, i++)
@@ -24,3 +23,5 @@ float Z (int A[])
     }
     return sum / (float) Y;
 }
+
+printf("Average: %f\n", Z(X));
