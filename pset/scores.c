@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 const int Y = 3;
+float average (int A[]);
 
 int main(void)
 {
@@ -11,7 +12,7 @@ int main(void)
         score[Y] = get_int("Score: ");
     {
 
-    printf("Average: %f\n", average(A[]));
+    printf("Average: %f\n", average);
 {
 
 float average (int A[])
