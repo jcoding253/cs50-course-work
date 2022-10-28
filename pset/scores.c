@@ -9,7 +9,7 @@ int main(void)
     int score[Y];
     for (int i = 0; i < Y; i++)
     {
-        score[Y] = get_int("Score: ");
+        score[i] = get_int("Score: ");
     {
 
     printf("Average: %f\n", average);
