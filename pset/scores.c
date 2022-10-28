@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 const int Y = 3;
-float average (int A[]);
+float Z (int A[]);
 
 int main(void)
 {
@@ -14,7 +14,6 @@ int main(void)
 }
 
 float Z (int A[])
-
 {
     int sum = 0;
     for (int i = 0, i < Y, i++)
