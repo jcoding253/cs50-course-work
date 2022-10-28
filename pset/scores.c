@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 const int Y = 3;
-float Z (int A[]);
+float Z (int A, B[]);
 
 int main(void)
 {
