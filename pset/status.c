@@ -14,5 +14,4 @@ int main (int argc, string argv[])
         printf("Hey, %s\n", argv[1]);
         return 11;
     }
-
 }
