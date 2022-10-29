@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <stirng.h>
 
 int main(void)
 {
@@ -24,6 +25,6 @@ int main(void)
     string s = get_string("String: ");
     for (int i = 0; i < 7; i++)
     {
-        if (strings[i] == s)
+        if (strcmp(strings[i] == s)
     }
 }
