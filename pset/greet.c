@@ -3,9 +3,9 @@
 
 int main(int argc, string argv[])
 {
-    if (argc ==2)
+    if (argc ==3)
     {
-        printf("Hey, %s \n", argv[1]);
+        printf("Hey, %s %s \n", argv[1], argv[2]);
     }
     else
     {
