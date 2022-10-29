@@ -3,5 +3,13 @@
 
 int main(int argc, string argv[])
 {
-    printf("Hey %s\n", argv[1]);
+    if (argc ==2)
+    {
+        printf("Hey, %s \n", argv[1]);
+    }
+    else
+    {
+        printf("Hey, you\n");
+    }
+
 }
