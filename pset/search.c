@@ -17,3 +17,13 @@ int main(void)
     printf("Not found\n");
     return 1;
 }
+
+{
+    string strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "top hat"};
+
+    string s = get_string("String: ");
+    for (int i = 0; i < 7; i++)
+    {
+        if (strings[i] == s)
+    }
+}
