@@ -3,5 +3,12 @@
 
 int main (int argc, string argv[])
 {
-    if (argc !)
+    if (argc != 2)
+    {
+        printf("Missing command-line argument\n");
+    }
+    else
+    {
+        printf("Hey, %s\n", argv[1]);
+    }
 }
