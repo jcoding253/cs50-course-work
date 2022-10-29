@@ -28,6 +28,7 @@ int main(void)
         if (strcmp(strings[i], s) == 0)
         {
             printf("Found\n");
+            return 0;
         }
     }
 }
