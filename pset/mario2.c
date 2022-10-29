@@ -35,6 +35,7 @@ int main(void)
     //see abstractions below for making grids
     int s = get_size();
     print_grid(s);
+    
     printf("\n");
 }
 
