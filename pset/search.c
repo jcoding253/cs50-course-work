@@ -31,8 +31,8 @@ int main(void)
             {
                 printf("Found\n");
                 return 2;
-            }
-        }
+            {
+        {
         printf("Not found\n");
         return 3;
     {
