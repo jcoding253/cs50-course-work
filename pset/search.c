@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int sortvoid);
+int sort(void);
 
 int main(void)
 {
