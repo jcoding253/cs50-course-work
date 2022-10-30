@@ -13,14 +13,13 @@ int main(void)
         {
             if (strcmp(strings[i], s) == 0)
             {
-                                printf("Found\n");
+                printf("Found\n");
                 return 2;
             }
         }
         printf("Not found\n");
         return 3;
-    }
-    {
+
         //algorithim for number search
         int numbers[] = {20, 500, 10, 5, 100, 1, 50};
 
