@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int s_algorithm(void);
+int sortvoid);
 
 int main(void)
 {
@@ -25,7 +25,7 @@ int main(void)
 }
 
 
-int s_algorithm(void)
+int sort(void)
 {
         //algorithm for string search
         string strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "top hat"};
