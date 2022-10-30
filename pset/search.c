@@ -22,11 +22,6 @@ int main(void)
         printf("Not found\n");
         return 1;
     }
-}
-
-
-int sort(void)
-{
         //algorithm for string search
         string strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "top hat"};
 
