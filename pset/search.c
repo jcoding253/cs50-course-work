@@ -17,7 +17,6 @@ int main(void)
         }
     }
     printf("Not found\n");
-    return 0;
 
     //algorithim for number search
     int numbers[] = {20, 500, 10, 5, 100, 1, 50};
