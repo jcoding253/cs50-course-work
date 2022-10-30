@@ -29,11 +29,15 @@ int main(void)
         {
             if (strcmp(strings[i], s) == 0)
             {
-                printf("Found\n");
+                                printf("Found\n");
                 return 2;
-            {
-        {
-        printf("Not found\n");
+            }
+        }
+                printf("Not found\n");
         return 3;
+        {
+
+    }
+
     {
 {
