@@ -3,7 +3,7 @@
 #include <string.h>
 
 const int N = 7
-
+const int y = N
 
 
 int main(void)
@@ -20,9 +20,9 @@ int main(void)
         }
         else
         {
-            N--;
+            y--;
         }
-        if (N)
+        if (y == N-1)
         {
 
         }
