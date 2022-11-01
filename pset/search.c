@@ -34,10 +34,3 @@ int main(void)
     printf("Not found\n");
     return 1;
 }
-
-
-int dfsds(void)
-{
-    printf("he");
-    return 0;
-}
