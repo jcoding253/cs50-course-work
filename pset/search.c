@@ -8,7 +8,6 @@ int y = N;
 const int S = 6;
 int z = S;
 
-
 int main(void)
 {
     //algorithim for number search
@@ -60,4 +59,6 @@ int main(void)
     return 2;
     if (y = 1, z = 1)
     return 3;
+
+
 }
