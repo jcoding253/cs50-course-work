@@ -5,6 +5,9 @@
 const int N = 7;
 int y = N;
 
+const int S = 6;
+int z = S;
+
 
 int main(void)
 {
@@ -33,11 +36,19 @@ int main(void)
     string strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "top hat"};
 
     string s = get_string("String: ");
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < S; i++)
     {
         if (strcmp(strings[i], s) == 0)
         {
             printf("Found\n");
+        }
+        else
+        {
+            z--;
+        }
+        if (z == 0)
+        {
+            printf("Not found \n");
         }
     }
     printf("Not found\n");
