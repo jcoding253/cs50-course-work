@@ -16,7 +16,7 @@ int main(void)
         }
         else
         {
-            printf("no");
+            printf("Not found\n");
         }
     }
 
