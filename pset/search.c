@@ -2,13 +2,17 @@
 #include <stdio.h>
 #include <string.h>
 
+const int N = 7
+
+
+
 int main(void)
 {
     //algorithim for number search
     int numbers[] = {20, 500, 10, 5, 100, 1, 50};
 
     int n = get_int("Number: ");
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < N; i++)
     {
         if (numbers[i] == n)
         {
@@ -16,7 +20,11 @@ int main(void)
         }
         else
         {
-            printf("Not found\n");
+            N--;
+        }
+        if (N)
+        {
+
         }
     }
 
