@@ -14,10 +14,6 @@ int main(void)
         {
             printf("Found\n");
         }
-        if (no printf)
-        {
-            printf("Not found\n");
-        }
     }
 
 
