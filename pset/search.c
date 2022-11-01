@@ -51,13 +51,13 @@ int main(void)
         }
     }
 
-    if (y = 0, z = 0)
+    if (y == 0, z == 0)
     return 0;
-    if (y = 0, z = 1)
+    if (y == 0, z == 1)
     return 1;
-    if (y = 1, z = 0)
+    if (y == 1, z == 0)
     return 2;
-    if (y = 1, z = 1)
+    if (y == 1, z == 1)
     return 3;
 
 
