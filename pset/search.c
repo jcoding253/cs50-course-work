@@ -15,6 +15,7 @@ int main(void)
             printf("Found\n");
         }
     }
+    else
     printf("Not found\n");
 
     //algorithm for string search
