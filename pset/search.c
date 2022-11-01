@@ -13,10 +13,13 @@ int main(void)
         if (numbers[i] == n)
         {
             printf("Found\n");
-            return 1;
+        }
+        if (numbers[i] != n)
+        {
+            printf("Not found\n")
         }
     }
-    printf("Not found\n");
+
 
     //algorithm for string search
     string strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "top hat"};
