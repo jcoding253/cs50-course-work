@@ -16,7 +16,7 @@ int main(void)
         }
         if (numbers[i] != n)
         {
-            printf("Not found\n")
+            printf("Not found\n");
         }
     }
 
