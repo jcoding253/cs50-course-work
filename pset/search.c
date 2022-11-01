@@ -37,4 +37,7 @@ int main(void)
 
 
 int dfsds(void)
-
+{
+    printf("he");
+    return 0;
+}
