@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
-const int N = 7
-const int y = N
+const int N = 7;
+int y == N;
 
 
 int main(void)
@@ -22,9 +22,9 @@ int main(void)
         {
             y--;
         }
-        if (y == N-1)
+        if (y == 0)
         {
-
+            printf("Not found \n");
         }
     }
 
