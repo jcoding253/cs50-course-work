@@ -15,13 +15,8 @@ int main(void)
             printf("Found\n");
             return 1;
         }
-        if (return 1)
-        {
-            printf("nice");
-        }
-
     }
-
+    printf("Not found\n");
 
     //algorithm for string search
     string strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "top hat"};
