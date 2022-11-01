@@ -3,7 +3,7 @@
 #include <string.h>
 
 const int N = 7;
-int y == N;
+int y = N;
 
 
 int main(void)
