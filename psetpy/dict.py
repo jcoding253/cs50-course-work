@@ -9,7 +9,7 @@ def check(word):
         return False
 
 
-def load(dictionary)
+def load(dictionary):
     file = open(dictionary,"r")
     for line in file:
         word = line.rstrip()
