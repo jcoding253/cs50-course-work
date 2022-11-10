@@ -11,10 +11,16 @@ def check(word):
 
 
 def load(dictionary)
+    file = open(dictionary,"r")
+    for line in file:
+        word = line.rstrip()
+        words.add(word)
+    Close(file)
+    return True
 
 
 def size():
-
+    
 
 def unload():
 
