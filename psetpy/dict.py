@@ -1,5 +1,4 @@
 
-
 words = set()
 
 
@@ -20,7 +19,8 @@ def load(dictionary)
 
 
 def size():
-    
+    return len(words)
+
 
 def unload():
-
+    return True
