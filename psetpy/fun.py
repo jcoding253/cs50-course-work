@@ -12,5 +12,5 @@ else:
 counter += 1
 
 // Loops
-for i in [0, 1, 2]
+for i in range(3):
 
