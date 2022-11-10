@@ -1,7 +1,7 @@
-import cs50 get_string
+from cs50 import get_string
 
 
-print("hello, world")
+print("Hello, world!")
 
 answer = get_string("What's your name?  ")
 print(f"hello, {answer} ")
