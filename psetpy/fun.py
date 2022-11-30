@@ -14,5 +14,6 @@ counter += 1
 // Loops
 for i in range(3):
     print("hi")
+    
 while True
     print("hi")
