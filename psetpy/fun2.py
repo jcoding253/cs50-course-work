@@ -11,3 +11,7 @@ if s == t:
     print('Same')
 else:
     print('Different')
+
+
+
+t = 
