@@ -1,7 +1,6 @@
+//A Method that creates a lowercase function within the string
 
 s = input('Do you agree? ')
-
-//A Method that creates a lowercase function within the string
 s = s.lower()
 
 if s in ('y' , 'yes')
@@ -10,9 +9,11 @@ elif s in ('n' , 'no')
     print ('Not Agreed.')
 
 
+
 //regular expressions
 import re
 
+s = input('Do you agree? ')
 s = s.lower()
 
 if re.search('^y(es)?$', s):
