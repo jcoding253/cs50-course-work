@@ -19,3 +19,12 @@ if re.search('^y(es)?$', s):
     print ('Agreed.')
 elif re.search('^no?$', s):
     print ('Not Agreed.')
+
+
+. any character
+.* 0 or more characters
+.+ 1 or more characters
+? optional
+
+^ start
+& end
