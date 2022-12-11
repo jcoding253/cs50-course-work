@@ -6,5 +6,5 @@ with open('phonebook.csv', 'a') as file:
     number = input('Number: ')
 
     writer = csv.DictWriter(file, fieldnames=[{'name', 'number'}])
-    writer.writerow(['name': name, number])
+    writer.writerow({'name': name, 'number': number})
 
