@@ -1,3 +1,3 @@
 //uppercase
-before = input("'Before: ')
-print('After,)
+before = input('Before: ')
+print('After: ')
