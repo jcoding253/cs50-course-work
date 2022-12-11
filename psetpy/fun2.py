@@ -1,3 +1,4 @@
 //uppercase
 before = input('Before: ')
-print('After: ')
+after = before.upper()
+print(f'After: {after}')
