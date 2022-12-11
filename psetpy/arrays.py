@@ -1,1 +1,3 @@
-people
+people = {
+    'Carter':
+}
