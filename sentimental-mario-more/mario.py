@@ -2,7 +2,8 @@
 
 def main():
     h = get_height()
-    draw(h)
+    j = h
+    draw(j)
 
 def get_height():
     while True:
@@ -13,8 +14,7 @@ def get_height():
         except ValueError:
             print('Not an integer, please try again. ')
 
-def draw(h):
-    j = h
+def draw(j):
 
     if j < 1:
         return
