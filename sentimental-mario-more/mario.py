@@ -19,9 +19,10 @@ def draw(j):
         return
 
     draw(j-1)
+    z 
 
-    for i in range (j):
-        print('#', end='')
+    for i in range (z):
+        print('$', end='')
 
     for i in range (2):
         print(end='  ')
