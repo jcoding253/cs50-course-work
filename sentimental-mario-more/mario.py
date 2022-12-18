@@ -13,7 +13,8 @@ def get_height():
         except ValueError:
             print('Not an integer, please try again. ')
 
-def draw(j):
+def draw(h):
+    
     if j < 1:
         return
 
