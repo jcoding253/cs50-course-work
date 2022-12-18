@@ -4,7 +4,7 @@ def main():
     height = get_height()
 
     if height < 1:
-        
+        sys.exit(0)
 
     for i in range (height-1):
         print('#')
