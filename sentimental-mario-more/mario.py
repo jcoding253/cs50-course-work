@@ -8,7 +8,7 @@ def get_height():
     while True:
         try:
             n = int(input('Height: '))
-            if n in range(0, 8, 1):
+            if n in range(1, 9, 1):
                 return n
         except ValueError:
             print('Not an integer from 1-8, please try again. ')
