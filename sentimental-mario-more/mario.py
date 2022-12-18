@@ -1,4 +1,4 @@
-global z = 0
+z = 0
 
 def main():
     h = get_height()
@@ -18,7 +18,7 @@ def draw(j):
     if j < 1:
         return
 
-    z += 1
+    global z += 1
     draw(j-1)
 
 
