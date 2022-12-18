@@ -2,9 +2,7 @@
 def main():
     height = get_height()
     for i in range (height):
-        for i in range (height):
-            print('#')
-        print()
+        print('#')
 
 //Tries the values until an integer enters
 def get_height():
