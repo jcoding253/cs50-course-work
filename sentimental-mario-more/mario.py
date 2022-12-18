@@ -19,8 +19,6 @@ def draw(j):
     if j < 1:
         return
 
-    z += j+1
-
     draw(j-1)
 
 
