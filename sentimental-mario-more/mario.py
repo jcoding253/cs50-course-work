@@ -7,6 +7,7 @@ def main():
         sys.exit(0)
 
     for i in range (height-1):
+        for i in range (height):
         print('#')
 
     print()
