@@ -25,7 +25,7 @@ def get_height():
             print('Not an integer from 1-8, please try again. ')
 
 
-# Recursion drawing
+# Recursion drawing, countdown with simultaneous opposite count up
 
 
 def draw(j):
