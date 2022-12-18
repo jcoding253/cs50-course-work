@@ -15,11 +15,12 @@ def get_height():
 
 def draw():
     if h < 1:
+        
         sys.exit(0)
 
     draw (h-1)
 
-    for i in range (height):
+    for i in range (h):
         print('#')
 
     print()
