@@ -22,7 +22,7 @@ def draw(j):
     draw(j-1)
 
 
-    for i in range (z):
+    for i in range (4-j):
         print('$', end='')
 
     print(end='  ')
