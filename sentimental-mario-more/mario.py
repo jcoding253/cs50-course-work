@@ -2,8 +2,7 @@
 
 def main():
     h = get_height()
-    j = h
-    draw(j)
+    draw(h)
 
 def get_height():
     while True:
