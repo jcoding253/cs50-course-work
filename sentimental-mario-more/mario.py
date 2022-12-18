@@ -22,7 +22,6 @@ def draw(j):
     z += 1
     draw(j-1)
 
-
     for i in range (z-j):
         print(' ', end='')
 
@@ -35,6 +34,5 @@ def draw(j):
         print('#', end='')
 
     print()
-
 
 main()
