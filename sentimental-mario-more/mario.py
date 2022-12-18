@@ -1,6 +1,5 @@
-z = -1
-
 def main():
+    z = -1
     h = get_height()
     draw(h)
 
