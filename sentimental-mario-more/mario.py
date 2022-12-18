@@ -19,7 +19,9 @@ def draw(j):
         return
 
     draw(j-1)
-    z 
+
+    z = j
+    z += 2
 
     for i in range (z):
         print('$', end='')
