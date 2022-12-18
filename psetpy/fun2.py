@@ -1,11 +1,11 @@
-//uppercase
+#uppercase
 before = input('Before: ')
 after = before.upper()
 print(f'After: {after}')
 
 
 
-//compare
+#compare
 s = input('s: ')
 t = input('t: ')
 
@@ -16,7 +16,7 @@ else:
 
 
 
-//copy
+#copy
 s = input('s: ')
 t = s.capitalize()
 
@@ -26,7 +26,7 @@ print(f's: {t}')
 
 
 
-//swap
+#swap
 x = 1
 y = 2
 

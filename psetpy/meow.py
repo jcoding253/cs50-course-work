@@ -1,4 +1,4 @@
-//Defines two functions then calls main
+#Defines two functions then calls main
 
 def main():
     meow(3)

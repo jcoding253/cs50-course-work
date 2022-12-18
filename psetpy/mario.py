@@ -1,10 +1,10 @@
-//Calls get height function
+#Calls get height function
 def main():
     height = get_height()
     for i in range (height):
         print('#')
 
-//Tries the values until an integer enters
+#Tries the values until an integer enters
 def get_height():
     while True:
         try:

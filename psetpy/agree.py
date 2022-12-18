@@ -1,4 +1,4 @@
-//A Method that creates a lowercase function within the string
+#A Method that creates a lowercase function within the string
 
 s = input('Do you agree? ')
 s = s.lower()
@@ -10,7 +10,7 @@ elif s in ('n' , 'no')
 
 
 
-//regular expressions
+#regular expressions
 import re
 
 s = input('Do you agree? ')
