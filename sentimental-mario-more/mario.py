@@ -13,25 +13,23 @@ def get_height():
         except ValueError:
             print('Not an integer, please try again. ')
 
-def draw(j):
+def draw():
 
     if j < 1:
         return
 
     draw(j-1)
 
-    z = j
-    z += 2
 
     for i in range (z):
         print('$', end='')
 
-    for i in range (2):
-        print(end='  ')
+    print(end='  ')
 
     for i in range (j):
         print('#', end='')
 
     print()
+
 
 main()
