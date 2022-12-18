@@ -1,4 +1,4 @@
-Z = 0
+z = 0
 
 def main():
     h = get_height()
@@ -14,16 +14,20 @@ def get_height():
             print('Not an integer, please try again. ')
 
 def draw(j):
+    global z
 
     if j < 1:
         return
 
-    Z += 1
+    z += 1
     draw(j-1)
 
 
     for i in range (z-j):
-        print('$', end='')
+        print(' ', end='')
+
+    for i in range (j):
+        print('#', end='')
 
     print(end='  ')
 
