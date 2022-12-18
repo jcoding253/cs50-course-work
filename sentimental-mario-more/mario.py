@@ -18,7 +18,7 @@ def draw():
         print(done)
         sys.exit(0)
 
-    draw(height-1):
+    draw(height-1)
 
     for i in range (height):
         print('#')
