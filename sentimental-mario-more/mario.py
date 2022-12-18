@@ -2,6 +2,10 @@
 
 def main():
     height = get_height()
+
+    if height < 1:
+        
+
     for i in range (height-1):
         print('#')
     print()
