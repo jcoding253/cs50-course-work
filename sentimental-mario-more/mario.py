@@ -21,9 +21,7 @@ def draw(i):
     draw(i-1)
 
     for i in range (i):
-        for i in range (i):
-            print('#', end='')
-        print('#', end='')
+        print('#  #', end='')
 
     print()
 
