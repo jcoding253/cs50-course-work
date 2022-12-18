@@ -1,8 +1,14 @@
 z = 0
 
+# Draw Pyramid function
+
+
 def main():
     h = get_height()
     draw(h)
+
+# Height input
+
 
 def get_height():
     while True:
@@ -13,6 +19,9 @@ def get_height():
         except ValueError:
             print('Not an integer from 1-8, please try again. ')
 
+# Recursion drawing
+
+
 def draw(j):
     global z
 
@@ -22,17 +31,19 @@ def draw(j):
     z += 1
     draw(j-1)
 
-    for i in range (z-j):
+    for i in range(z-j):
         print(' ', end='')
 
-    for i in range (j):
+    for i in range(j):
         print('#', end='')
 
     print(end='  ')
 
-    for i in range (j):
+    for i in range(j):
         print('#', end='')
 
     print()
 
+
+# Runs program
 main()
