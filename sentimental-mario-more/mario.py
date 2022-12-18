@@ -19,7 +19,7 @@ def draw(j):
     if j < 1:
         return
 
-    z += 1
+    z += j+1
 
     draw(j-1)
 
