@@ -15,7 +15,7 @@ def get_height():
 
 def draw(i):
     if i < 1:
-        print(done)
+        print('done')
         sys.exit(0)
 
     draw(i-1)
