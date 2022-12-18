@@ -19,10 +19,11 @@ def draw(j):
     if j < 1:
         return
 
+    global z = z + 1
     draw(j-1)
 
 
-    for i in range (4-j):
+    for i in range (z-j):
         print('$', end='')
 
     print(end='  ')
