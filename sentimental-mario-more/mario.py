@@ -21,7 +21,7 @@ def draw(j):
 
     draw(j-1)
 
-    for i in range (z+1):
+    for i in range (z-1):
         print('$', end='')
 
     for i in range (j):
