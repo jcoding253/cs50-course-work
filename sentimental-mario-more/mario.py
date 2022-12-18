@@ -1,5 +1,6 @@
+global z = 0
+
 def main():
-    z = -1
     h = get_height()
     draw(h)
 
@@ -12,14 +13,12 @@ def get_height():
         except ValueError:
             print('Not an integer, please try again. ')
 
-
-
 def draw(j):
 
     if j < 1:
         return
 
-    global z = z + 1
+    z += 1
     draw(j-1)
 
 
