@@ -19,9 +19,9 @@ def draw(j):
 
     draw(j-1)
 
-    for i in range (j):
+    for i in range (h-j):
         print('#', end='')
-        
+
     for i in range (j):
         print('#', end='')
 
