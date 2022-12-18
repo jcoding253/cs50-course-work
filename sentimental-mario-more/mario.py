@@ -1,19 +1,8 @@
 # TODO
 
 def main():
-    height = get_height()
-
-    if height < 1:
-        sys.exit(0)
-
-    for i in range (height-1):
-        for i in range (height):
-        print('#')
-
-    print()
-
-
-
+    h = get_height()
+    draw (h)
 
 def get_height():
     while True:
@@ -24,7 +13,16 @@ def get_height():
         except ValueError:
             print('Not an integer, please try again. ')
 
+def draw():
+    if h < 1:
+        sys.exit(0)
 
+    draw (h-1)
+
+    for i in range (height):
+        print('#')
+
+    print()
 
 
 main()
