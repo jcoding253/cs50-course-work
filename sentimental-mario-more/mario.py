@@ -15,12 +15,13 @@ def get_height():
 
 def draw(j):
 
-    z += 2
-
     if j < 1:
         return
 
+    z += 1
+
     draw(j-1)
+
 
     for i in range (z):
         print('$', end='')
