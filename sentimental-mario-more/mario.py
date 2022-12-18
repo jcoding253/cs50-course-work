@@ -1,5 +1,3 @@
-# TODO
-
 z = -1
 
 def main():
