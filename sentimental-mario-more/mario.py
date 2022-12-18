@@ -14,14 +14,15 @@ def get_height():
             print('Not an integer, please try again. ')
 
 def draw(h):
-    
+    j = h
+
     if j < 1:
         return
 
     draw(j-1)
 
-    for i in range (h-j):
-        print(end='  ')
+    for i in range (h):
+        print('$', end='')
 
     for i in range (j):
         print('#', end='')
