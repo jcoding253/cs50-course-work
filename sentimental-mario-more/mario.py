@@ -1,5 +1,7 @@
 # TODO
 
+z = -1
+
 def main():
     h = get_height()
     draw(h)
@@ -12,6 +14,8 @@ def get_height():
                 return n
         except ValueError:
             print('Not an integer, please try again. ')
+
+
 
 def draw(j):
 
