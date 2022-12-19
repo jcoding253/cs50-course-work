@@ -37,8 +37,8 @@ def draw(j):
     z += 1
     draw(j-1)
 
-    for i in range(z-j):
-        print(' ', end='')
+# Printing the pyramid
+    print(' ' * (z-j), end='' * (z-j))
 
     print('#' * j, end='')
 
