@@ -40,12 +40,11 @@ def draw(j):
     for i in range(z-j):
         print(' ', end='')
 
-    for i in range(j):
-        print('#', end='')
+    print('#' * j, end='')
 
     print(end='  ')
 
-    print('#' * j, end='' * j)
+    print('#' * j, end='')
 
     print()
 
