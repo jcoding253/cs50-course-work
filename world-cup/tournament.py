@@ -16,7 +16,11 @@ def main():
         sys.exit("Usage: python tournament.py FILENAME")
 
     teams = []
-    with open(sys.argv[1], 'r')
+    with open(sys.argv[1]) as file:
+        reader = csv.DictReader(file)
+        team_name = 
+        for row in reader:
+            print(row)
 
     # TODO: Read teams into memory from file
 
