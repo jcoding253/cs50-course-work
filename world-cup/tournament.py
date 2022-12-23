@@ -7,6 +7,7 @@ import random
 # Number of simluations to run
 N = 1000
 
+with open
 
 def main():
 
@@ -16,7 +17,7 @@ def main():
 
     teams = []
     # TODO: Read teams into memory from file
-with open 
+
     counts = {}
     # TODO: Simulate N tournaments and keep track of win counts
 
