@@ -7,7 +7,7 @@ import random
 # Number of simluations to run
 N = 1000
 
-file = open('2019w.csv', )
+
 
 def main():
 
@@ -16,7 +16,12 @@ def main():
         sys.exit("Usage: python tournament.py FILENAME")
 
     teams = []
+    file = open(sys.argv[], )
+
     # TODO: Read teams into memory from file
+
+
+
 
     counts = {}
     # TODO: Simulate N tournaments and keep track of win counts
