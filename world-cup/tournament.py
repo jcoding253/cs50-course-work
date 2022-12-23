@@ -16,7 +16,7 @@ def main():
         sys.exit("Usage: python tournament.py FILENAME")
 
     teams = []
-    file = open(sys.argv[], )
+    file = open(sys.argv[1], 'r')
 
     # TODO: Read teams into memory from file
 
