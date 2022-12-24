@@ -11,9 +11,12 @@ N = 1000
 
 def main():
 
-    # Ensure correct usage
+# Ensure correct usage
     if len(sys.argv) != 2:
         sys.exit("Usage: python tournament.py FILENAME")
+
+
+# Read teams into memory from file
 
     teams = []
     with open(sys.argv[1]) as file:
@@ -24,13 +27,12 @@ def main():
             teams.append({'team': team_name, 'rating': team_rating})
         print(teams)
 
-    # Read teams into memory from file
 
 
-
+ # Simulate N tournaments and keep track of win counts
 
     counts = {}
-    # TODO: Simulate N tournaments and keep track of win counts
+
 
     # Print each team's chances of winning, according to simulation
     for team in sorted(counts, key=lambda team: counts[team], reverse=True):
