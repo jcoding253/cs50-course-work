@@ -19,7 +19,8 @@ def main():
     with open(sys.argv[1]) as file:
         reader = csv.DictReader(file)
         for row in reader:
-            team_name = row["team"]
+            team_name = row['team']
+            team_rating = 
         print(teams)
 
     # TODO: Read teams into memory from file
