@@ -20,7 +20,8 @@ def main():
         reader = csv.DictReader(file)
         for row in reader:
             team_name = row['team']
-            team_rating = 
+            team_rating = int(row['rating'])
+            teams.append({'team': team_name, 'rating': team_rating})
         print(teams)
 
     # TODO: Read teams into memory from file
