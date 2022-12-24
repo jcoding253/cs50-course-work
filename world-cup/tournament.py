@@ -24,7 +24,7 @@ def main():
             teams.append({'team': team_name, 'rating': team_rating})
         print(teams)
 
-    # TODO: Read teams into memory from file
+    # Read teams into memory from file
 
 
 
