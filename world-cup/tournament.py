@@ -28,7 +28,6 @@ def main():
         print(teams)
 
 
-
  # Simulate N tournaments and keep track of win counts
 
     counts = {}
