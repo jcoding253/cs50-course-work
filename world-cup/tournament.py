@@ -32,7 +32,9 @@ def main():
     for i in range(N):
         winner_team = simulate_tournament(teams)
         if winner_team in counts:
-            counts[winner_team]
+            counts[winner_team] += 1
+        else:
+            counts[winner_team] = 1
     # Print each team's chances of winning, according to simulation
     for team in sorted(counts, key=lambda team: counts[team], reverse=True):
         print(f"{team}: {counts[team] * 100 / N:.1f}% chance of winning")
