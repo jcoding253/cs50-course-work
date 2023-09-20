@@ -6,7 +6,7 @@ With minimal coding experience from working in the computation layer of a math t
 #I came across this free, Harvard, 13 week course, intro to computer engineering, called "CS50". I completed more than half of the practice sets before I decided it was taking too long,
 because I wanted to dive into more real world applications not just short, non-applicable proofs of concept. 
 
-#Nonetheless, I finished all of the videos and took notes which gave me the fundamental knowledge of computer systems and how they work that I was seeking. 
+#Nonetheless, I finished all of the lectures and took notes which gave me the fundamental knowledge of computer systems and how they work that I was seeking. 
 I mainly practiced in C++ and some python. Understanding the fundamentals has significantly helped me when I come across basic terms like strings, arrays, variables, pointers, queries, bits
 in relation to number limitations, memory efficiency, loops, return values, and recurion. 
 
